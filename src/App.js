@@ -11,10 +11,10 @@ const App = () => {
       </div>
 
       <p className="subhead">
-        I am <strong>Albert Arvesu</strong>, a Full Stack Developer residing in
-        Melbourne, Australia. I am passionate in everything about Javascript.
-        When I am not writing code, you'll see me dribbling a basketball or
-        running after my 2-year old daughter.
+        My name is <strong className="name">Albert Arvesu</strong>, a Full Stack
+        Developer residing in Melbourne, Australia. I am passionate in
+        everything about Javascript. When not writing code, you'll see me
+        dribbling a basketball or running after my 2-year old daughter.
       </p>
 
       <h3 className="lead">

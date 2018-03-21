@@ -15,6 +15,12 @@
   font-weight: 500;
 }
 
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
 .subhead {
   font-size: 0.925rem;
   opacity: 0.75;
@@ -71,6 +77,23 @@
   -ms-animation: 1s blink step-end infinite;
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    color: rgba(255, 255, 255);
+  }
+  .headline {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .container {
+    max-width: 90%;
+    background-color: black;
+  }
+  .lead {
+    color: #f92672;
+  }
 }
 
 @keyframes blink {

@@ -20,7 +20,7 @@
 .name {
   font-size: 1rem;
   font-weight: 600;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .subhead {
@@ -44,7 +44,7 @@
 }
 
 .listContainer > li > a {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   opacity: 0.8;
   text-decoration: none;
 }

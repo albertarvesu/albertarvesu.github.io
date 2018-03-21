@@ -17,9 +17,9 @@ injectGlobal`
     src: url(${Consolas}) format('truetype');
   }
   body {
-    background-color: #272822;
     color: rgba(255, 255, 255, 0.8);
     font-size: 1rem;
+    background-color: black;
     font-family: Monaco, Consolas, "Courier New", monospace;
   }
   .icon-link {

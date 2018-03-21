@@ -3,6 +3,8 @@
   margin: 0pt auto;
   padding: 1rem;
   line-height: 1.5rem;
+  background-color: #272822;
+  border-radius: 1rem;
 }
 
 .center {
@@ -80,9 +82,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .body {
-    color: rgba(255, 255, 255);
-  }
   .headline {
     font-size: 2rem;
     line-height: 2rem;

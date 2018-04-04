@@ -54,6 +54,7 @@ const App = () => {
 
       <ul className="listContainer">
         <li>Yarn</li>
+        <li>Docker</li>
         <li>Npm</li>
         <li>Shell</li>
         <li>Gulp</li>

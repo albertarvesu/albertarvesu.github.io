@@ -32,6 +32,7 @@ const App = () => (
       <li>Redux</li>
       <li>GraphQL</li>
       <li>Webpack</li>
+      <li>Typescript</li>
       <li>CSS Modules</li>
       <li>Styled-Components</li>
     </ul>
@@ -64,6 +65,16 @@ const App = () => (
     <h3 className="lead">Built or participated in...</h3>
 
     <ul className="listContainer">
+      <li>
+        <a target="_blank" href="https://espendy.com">
+          eSpendy - Expenses Tracker
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://portal.betpump.com/#/">
+          Metric Sportsbook Client
+        </a>
+      </li>
       <li>
         <a target="_blank" href="http://www.bliimo.com">
           Bliimo Apps (API, Web and Mobile)

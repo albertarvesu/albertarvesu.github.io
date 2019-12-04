@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./global-styles";
-import "./App.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './global-styles';
+import './App.css';
 
 const App = () => (
   <div className="container">
@@ -11,9 +11,9 @@ const App = () => (
 
     <p className="subhead">
       My name is <strong className="name">Albert Arvesu</strong>, a Full Stack
-      Developer residing in Melbourne, Australia. I am passionate in
-      everything about Javascript. When not writing code, you will see me
-      dribbling a basketball or running after my 2-year old daughter.
+      Developer residing in Melbourne, Australia. I am passionate in everything
+      about Javascript. When not writing code, you will see me dribbling a
+      basketball or running after my 4-year old daughter.
     </p>
 
     <h3 className="lead">
@@ -27,19 +27,20 @@ const App = () => (
         ReactJS<span className="blinking-cursor">|</span>
       </li>
       <li>React Native</li>
-      <li>Angular</li>
+      <li>Styled-Components</li>
+      <li>Storybook</li>
+      <li>Typescript</li>
       <li>ES6</li>
       <li>Redux</li>
+      <li>Angular</li>
       <li>GraphQL</li>
-      <li>Webpack</li>
-      <li>Typescript</li>
       <li>CSS Modules</li>
-      <li>Styled-Components</li>
     </ul>
 
     <p className="listhead">BACKEND</p>
 
     <ul className="listContainer">
+      <li>Rails</li>
       <li>NodeJS</li>
       <li>Grails</li>
       <li>Firebase</li>
@@ -54,20 +55,30 @@ const App = () => (
 
     <ul className="listContainer">
       <li>Yarn</li>
-      <li>Docker</li>
-      <li>Jenkins</li>
       <li>Npm</li>
+      <li>Docker</li>
+      <li>Webpack</li>
+      <li>Buildkite</li>
       <li>Shell</li>
-      <li>Gulp</li>
       <li>Gradle</li>
+    </ul>
+
+    <p className="listhead">INTEGRATIONS</p>
+
+    <ul className="listContainer">
+      <li>Facebook</li>
+      <li>Stripe Payment</li>
+      <li>Segment.io</li>
+      <li>Rollbar</li>
+      <li>Appcues</li>
     </ul>
 
     <h3 className="lead">Built or participated in...</h3>
 
     <ul className="listContainer">
       <li>
-        <a target="_blank" href="https://espendy.com">
-          eSpendy - Expenses Tracker
+        <a target="_blank" href="https://brand.tribegroup.co">
+          Tribe - Brand Platform
         </a>
       </li>
       <li>
@@ -149,4 +160,4 @@ const App = () => (
 
 export default App;
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById('app'));

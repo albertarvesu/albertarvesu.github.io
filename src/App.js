@@ -10,10 +10,10 @@ const App = () => (
     </div>
 
     <p className="subhead">
-      My name is <strong className="name">Albert Arvesu</strong>, a Full Stack
-      Developer residing in Melbourne, Australia. I am passionate in everything
-      about Javascript. When not writing code, you will see me dribbling a
-      basketball or running after my 4-year old daughter.
+      My name is <strong className="name">Albert Arvesu</strong>, a Senior
+      Frontend Engineer residing in Melbourne, Australia. I am passionate in
+      everything about Javascript. When not writing code, you will see me
+      dribbling a basketball or running after my 4-year old daughter.
     </p>
 
     <h3 className="lead">
@@ -76,6 +76,12 @@ const App = () => (
     <h3 className="lead">Built or participated in...</h3>
 
     <ul className="listContainer">
+      <li>
+        <a target="_blank" href="http://www.1balita.com">
+          1Balita - a Philippine online news aggregator from different local
+          news providers.
+        </a>
+      </li>
       <li>
         <a target="_blank" href="https://brand.tribegroup.co">
           Tribe - Brand Platform

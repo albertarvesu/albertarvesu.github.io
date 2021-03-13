@@ -1,11 +1,11 @@
-import { injectGlobal } from "styled-components";
-import Monaco from "./fonts/Monaco.ttf";
-import Consolas from "./fonts/Consolas.ttf";
+import { injectGlobal } from 'styled-components';
+import Monaco from './fonts/Monaco.ttf';
+import Consolas from './fonts/Consolas.ttf';
 
-import Github from "./images/github.svg";
-import Twitter from "./images/twitter.svg";
-import LinkedIn from "./images/linkedin.svg";
-import Mail from "./images/mail.svg";
+import Github from './images/github.svg';
+import Twitter from './images/twitter.svg';
+import LinkedIn from './images/linkedin.svg';
+import Mail from './images/mail.svg';
 
 injectGlobal`
   @font-face {
@@ -27,7 +27,7 @@ injectGlobal`
     display: block;
     height: 2rem;
     width: 2rem;
-    text-indent: -999px;
+    text-indent: -5999px;
     background-repeat: no-repeat;
   }
   .github {

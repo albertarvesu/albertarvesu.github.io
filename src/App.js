@@ -13,7 +13,7 @@ const App = () => (
       My name is <strong className="name">Albert Arvesu</strong>, a Senior
       Frontend Engineer residing in Melbourne, Australia. I am passionate in
       everything about Javascript. When not writing code, you will see me
-      dribbling a basketball or running after my 4-year old daughter.
+      dribbling a basketball or running after my 5-year old daughter.
     </p>
 
     <h3 className="lead">
